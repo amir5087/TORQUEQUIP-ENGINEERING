@@ -111,7 +111,7 @@ header .navbar a:hover {
     background: url(../images/Screenshot\ 2024-02-21\ 084232.png) no-repeat;
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+    background-attachment: scroll;
 }
 
 .home .content span {
