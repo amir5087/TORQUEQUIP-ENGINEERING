@@ -109,9 +109,9 @@ header .navbar a:hover {
     display: flex;
     align-items: center;
     background: url(../images/Screenshot\ 2024-02-21\ 084232.png) no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
-    background-attachment: scroll;
+    background-attachment: fixed;
 }
 
 .home .content span {
