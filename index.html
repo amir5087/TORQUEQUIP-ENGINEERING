@@ -277,6 +277,7 @@
         <form action="https://formspree.io/f/mpzvrlea" method="POST">
         <div class="inputBox">
 
+            <select name="subject"> <option value="EMAIL">EMAIL</option>  <option value="Sales Request">Sales Request</option></select>
                 <input type="text" placeholder="your name">
                 <input type="email" placeholder="your email">
                 <input type="hidden" name="subject" value="New submission from {{email}}">
@@ -285,7 +286,7 @@
                 <input type="number" placeholder="your number">
                 <input type="text" placeholder="your address">
         </div>
-            <select name="subject"> <option value="EMAIL">EMAIL</option>  <option value="Sales Request">Sales Request</option></select>
+            
             <textarea placeholder="say someting" name="say something" id="say something" cols="30" rows="10"></textarea>
             <input type="submit" value="send message" class="btn">
         </form>
