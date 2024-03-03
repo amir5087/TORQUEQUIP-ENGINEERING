@@ -275,9 +275,10 @@
         </div>
 
         <form action="https://formspree.io/f/mpzvrlea" method="POST">
+            <select name="subject"> <option value="EMAIL">EMAIL</option>  <option value="Sales Request">Sales Request</option></select>
         <div class="inputBox">
 
-            <select name="subject"> <option value="EMAIL">EMAIL</option>  <option value="Sales Request">Sales Request</option></select>
+            
                 <input type="text" placeholder="your name">
                 <input type="email" placeholder="your email">
                 <input type="hidden" name="subject" value="New submission from {{email}}">
